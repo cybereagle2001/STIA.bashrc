@@ -110,9 +110,9 @@ if ! shopt -oq posix; then
 fi
 
 command_not_found_handle() {
-	/data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
+	sorry you are lost "$1"
 }
-PS1='\033[1;93m root\033[1;91m@STIA [\033[1;96m\W\033[1;97m]:# \033[1;92m'
+PS1='\033[1;93m root\033[1;91m@STIA [\033[1;96m\W\033[1;97m]$> \033[1;92m'
 clear
 echo""
 echo""
@@ -478,11 +478,12 @@ echo ""
 echo ""
 echo ""
 echo ""
-figlet "                          STIA"
+figlet "                    < \ STIA / >"
 
 echo ""
 echo "" 
-echo "                     "[██████████████████████ 100%]
+echo "                            Be Like The Snake Work In Silence"
+echo "                              "[██████████████████████ 100%]
 echo ""
 echo ""
 echo ""

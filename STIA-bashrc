@@ -112,7 +112,7 @@ fi
 command_not_found_handle() {
 	sorry you are lost "$1"
 }
-PS1='\033[1;43m root\033[0;34m@STIA [\033[1;96m\W\033[1;97m]$> \033[1;92m'
+PS1='\033[1;34m root\033[0;34m@STIA [\033[1;96m\W\033[1;97m]$> \033[1;92m'
 clear
 echo""
 echo""
